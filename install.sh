@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-APPS="i3 polybar kitty nitrogen rofi brave-browser"
-DIRS="i3 polybar kitty rofi picom"
+APPS="i3 polybar kitty nitrogen picom rofi brave-browser"
+DIRS="i3 polybar kitty rofi"
 
 initdirectories() {
     for dir in $DIRS; do
