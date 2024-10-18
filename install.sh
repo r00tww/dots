@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-APPS="i3 i3blocks alacritty nitrogen picom rofi brave-browser"
+APPS="i3 i3blocks alacritty nitrogen picom rofi brave-browser spectacle"
 DIRS="i3 i3blocks alacritty rofi"
 
 initdirectories() {
