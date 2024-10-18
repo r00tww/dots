@@ -6,7 +6,7 @@ Run [install.sh](./install.sh) file. That's all.
 ## Applications
 |Application|Description|
 |-|-|
-|Nitrogen|For Wallpaper|
+|Nitrogen|Wallpaper|
 |Picom|Compositor|
 |Brave|Browser|
 |Alacritty|Terminal|
