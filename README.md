@@ -1,3 +1,14 @@
 # qui's i3 dots
 
-README is coming soon. For installation, please run [install.sh](./install.sh) file.
+## Installation
+Run [install.sh](./install.sh) file. That's all.
+
+## Applications
+|Application|Description|
+|-|-|
+|Nitrogen|For Wallpaper|
+|Picom|Compositor|
+|Brave|Browser|
+|Alacritty|Terminal|
+|Screenshot|Spectacle|
+|Rofi|App Menu|
