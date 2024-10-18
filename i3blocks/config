@@ -1,0 +1,12 @@
+separator=true
+separator_block_width=15
+
+[weather]
+command=curl -Ss 'https://wttr.in?0&T&Q' | cut -c 16- | head -2 | xargs echo
+interval=3600
+color=#A4C2F4
+
+[time]
+command=date '+%Y-%m-%d %H:%M:%S'
+interval=1
+color=#91E78B
