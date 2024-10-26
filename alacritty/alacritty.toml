@@ -66,3 +66,9 @@ instance = "Alacritty"
 [window.padding]
 x = 6
 y = 6
+
+[keyboard]
+bindings = [
+    { key = "Return", mods = "Control", action = "ToggleViMode" },
+    { key = "T", mods = "Control|Shift", action = "SpawnNewInstance" }
+]
