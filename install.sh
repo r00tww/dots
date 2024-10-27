@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-APPS="i3 i3blocks alacritty nitrogen picom brave-browser rofi spectacle"
+APPS="i3 i3blocks alacritty nitrogen picom rofi spectacle"
 DIRS="i3 i3blocks alacritty rofi"
 
 initdirectories() {
@@ -52,6 +52,11 @@ installfonts() {
 	bash <(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)
 }
 
+installbrowser() {
+	echo "* BROWSER IS INSTALLING"
+	bash <(curl https://updates.zen-browser.app/appimage.sh)
+}
+
 main() {
     if [ "$1" == "i" ]; then
         initdirectories
@@ -59,6 +64,7 @@ main() {
         checkprograms
         copyfiles
 	installfonts
+	installbrowser
     fi
 }
 
