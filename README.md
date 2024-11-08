@@ -1,7 +1,7 @@
 # qui's i3 dots
 
 ## Installation
-Run [install.sh](./install.sh) file. That's all.
+Run [install.py](./install.py) file. That's all.
 
 ## Applications
 |Application|Description|
