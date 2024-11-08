@@ -1,7 +1,7 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: "[REQ]"
+title: "[BUG]"
 labels: ''
 assignees: r00tww
 
